@@ -9,3 +9,8 @@
 ## Toteutus
 
 <p></p>
+
+
+## Vuokaavio
+
+<img src="Vuokaavio.jpg">
