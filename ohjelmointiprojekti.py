@@ -48,7 +48,7 @@ while True:
                         print("Päiväkirjan teksti:")
                         for merkinta in hakutulos:
                             print(merkinta)
-                    # Jos päivämäärällä ei löytynyt merkintöjä
+                    # Jos päivämäärällä ei löytynyt merkintöjä, tulostuu seuraava
                     else:
                         print("Päivämäärällä ei löytynyt merkintöjä.")
                 
