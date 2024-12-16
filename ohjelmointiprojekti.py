@@ -122,15 +122,15 @@ while True:
                 # Muokataan osoitetiedot listaksi ja tallennetaan tiedostoon
                 merkinta = f"{etunimi}\n{sukunimi}\n{kadun_nimi}\n{talon_numero}\n{postinumero}\n{paikkakunta}\n{puh}\n"f"{etunimi}\n{sukunimi}\n{kadun_nimi}\n{talon_numero}\n{postinumero}\n{paikkakunta}\n{puh}\n"
                 
-                with open("osoitekirja.txt", "a+") as tiedosto:
-                    tiedosto.write(merkinta + "\n")
+                with open("osoitekirja.txt", "a") as tiedosto:
+                    tiedosto.write(merkinta)
                     osoitekirjatiedot.append(merkinta.strip()) # Tallennetaan merkinnät
 
                 print("Osoitetiedot tallennettu")
             # Haetaan osoitetiedot etunimen perusteella
             elif toiminto2 == "2":
                 etunimi = input("Etunimi: ")
-                hakutulos = [merkinta for merkinta in osoitekirjatiedot if merkinta.startswith(etunimi)]
+                hakutulos = [merkinta for merkinta in osoitekirjatiedot if merkinta.split('\n')[0] == etunimi]
                     
                 if hakutulos:
                     print("Osoitetiedot:")
