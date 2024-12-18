@@ -45,3 +45,4 @@
 <img src="Vuokaavio.jpg">
 
 ## Linkki videoesittelyyn
+<p> https://youtu.be/g62hRfLgzIg </p>
