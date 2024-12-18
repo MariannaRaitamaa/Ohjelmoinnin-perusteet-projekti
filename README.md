@@ -43,3 +43,5 @@
 ## Vuokaavio
 
 <img src="Vuokaavio.jpg">
+
+## Linkki videoesittelyyn
