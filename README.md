@@ -14,10 +14,13 @@
 <p>1. Run Python file</p>
 <p>2. Valitse toiminto 1 - Päiväkirja, 2 - Ystäväsivu, 3 - Osoitekirja tai 4 - Lopetus.</p>
 <p>3. Jos valitset 1 - Päiväkirja, valitse toiminto: 1 - Lisää teksti, 2 - Hae merkintä tai 3 - Alkuun.</p>
-    <p>\tJos valitset 1 - Lisää teksti: Lisää päivämäärä ja lisää teksti.</p>
-    <p>\tJos valitset 2 - Hae merkintä: Hae merkintä päivämäärällä.</p>
-    <p>\tJos valitset 3 - Alkuun: Palaat takaisin päävalikkoon, Valitse 1, 2, 3, tai 4.</p>
-    <p>\tJos valitset jonkun muun numeron kuin 1-3, ohjelma ilmoittaa virheellisestä valinnasta ja palauttaa takaisin päävalikkoon.</p>
+    <ul>
+    <li>Jos valitset 1 - Lisää teksti: Lisää päivämäärä ja lisää teksti.</li>
+    <li>Jos valitset 2 - Hae merkintä: Hae merkintä päivämäärällä.</li>
+    <li>Jos valitset 3 - Alkuun: Palaat takaisin päävalikkoon, Valitse 1, 2, 3, tai 4.</li>
+    <li>Jos valitset jonkun muun numeron kuin 1-3, ohjelma ilmoittaa virheellisestä valinnasta ja palauttaa takaisin päävalikkoon.</li>  
+    </ul>
+    
 <p>4. Jos valitset 2 - Ystäväsivu, valitse toiminto: 1 - Lisää ystävä, 2 - Hae merkintä tai 3 - Alkuun.</p>
     <p>Jos valitset 1 - Lisää ystävä: Lisää nimi, syntymävuosi, harrastukset, lempiväri, lempiruoka, ammatti, tapaaminen ja terveiset.</p>
     <p>Jos valitset 2 - Hae merkintä: Hae merkintä nimellä.</p>
